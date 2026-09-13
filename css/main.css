@@ -1,4 +1,10 @@
-body,
-.btn {
-    font-family: "Roboto Mono", monospace;
+@font-face {
+    font-family: "Batangas";
+    src: url("../fonts/Batangas_Free_2011/Batangas_Free_2011/Web Fonts/Batangas-Bold.woff2") format("woff2"),
+         url("../fonts/Batangas_Free_2011/Batangas_Free_2011/Web Fonts/Batangas-Bold.woff") format("woff");
+    font-weight: bold;
+}
+
+h1 {
+    font-family: "Batangas", sans-serif;
 }
