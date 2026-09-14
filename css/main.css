@@ -7,4 +7,44 @@
 
 h1 {
     font-family: "Batangas", sans-serif;
+    
+}
+
+h2 {
+    font-family: "Batangas", sans-serif;
+    
+}
+
+div {
+    background: false; /* cor do navbar */
+    color: black; /* cor do texto */
+}
+
+/* Config do PORTFOLIO */
+.text-xl-center {
+    font-size: 64px;
+    line-height: 0.9;
+    margin-top: 20px;
+    color: white;
+}
+
+/* Config do SOFTWARE ENGINEERING */
+.text-lg-center {
+    font-size: 32px;
+    line-height: 0.1;
+    color: white;
+}
+
+.card {
+    background-color: #4d4b4b; /* cor do card */
+    color: white; /* cor do texto */
+    border-radius: 10px; /* borda arredondada */
+    padding: 20px; /* espaçamento interno */
+    margin-bottom: 20px; /* espaçamento entre os cards */
+}
+
+/* Config do background */
+section {
+    background: linear-gradient(90deg, #4d4b4b, #919191, #4d4b4b); /* cor background */
+    height: 100vh; /* background ocupa 100% da tela (vh = ajusta a qualquer resolucao) */
 }
