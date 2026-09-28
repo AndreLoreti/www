@@ -421,7 +421,7 @@ footer.site-footer {
     max-width: 250px;
     height: 250px;
     object-fit: cover;
-    border-radius: 4px;
+    border-radius: 4px; /* Borda arredondada */
 }
 
 /* Botão retangular branco do GitHub */
