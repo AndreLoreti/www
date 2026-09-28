@@ -375,3 +375,68 @@ footer.site-footer {
     height: 200px;
   }
 }
+
+/* ESTILOS PARA A SECÇÃO ABOUT US*/
+#about {
+    color: #ffffff;
+    min-height: 100vh;
+    padding: 80px 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Cor do email em tom cinzento discreto */
+.about-email {
+    color: #777777;
+    font-size: 1rem;
+    font-family: sans-serif;
+}
+
+/* Nome em fonte Batangas destacada */
+.about-name {
+    font-family: 'Batangas', sans-serif;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+/* Texto do cabeçalho da secção */
+.about-title {
+    font-family: 'Batangas', sans-serif;
+    font-size: 3rem;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+/* Parágrafos de descrição */
+.about-text {
+    color: #dddddd;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* Tamanho e moldura das fotografias de perfil */
+.about-img {
+    width: 100%;
+    max-width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+/* Botão retangular branco do GitHub */
+.btn-github {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: 500;
+    border-radius: 8px;
+    padding: 8px 30px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.2s ease;
+}
+
+.btn-github:hover {
+    background-color: #e0e0e0;
+    color: #000000;
+}
