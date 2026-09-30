@@ -18,10 +18,11 @@ h2 {
 
 html {
     scroll-behavior: smooth;
+    min-height: 100vh;
 }
 
 body {
-  background: radial-gradient(circle at 50% 0%, #2b2d3d 0%, #0d0e12 100%);
+  background: radial-gradient(circle at 50% 0%, #376996, #1f487e,#1d3461);
   min-height: 100vh; /* background ocupa 100% da tela (vh = ajusta a qualquer resolucao) */
   font-family: "Roboto Mono", monospace;
   margin: 0;
