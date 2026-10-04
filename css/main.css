@@ -22,7 +22,13 @@ html {
 }
 
 body {
-  background: radial-gradient(circle at 50% 0%, #3d444d, #0d1117, #0d1117);
+  background: radial-gradient(
+    circle at 50% 0%,
+    #15345b 0%,
+    #102744 35%,
+    #0b1b31 65%,
+    #060d18 100%
+);
   min-height: 100vh; /* background ocupa 100% da tela (vh = ajusta a qualquer resolucao) */
   font-family: "Roboto Mono", monospace;
   margin: 0;
@@ -82,18 +88,17 @@ section {
 /* Config da TIPOGRAFIA */
 /* Config do PORTFOLIO */
 .text-xl {
-  font-size: 100px;
+  font-size: clamp(4rem, 6.5vw, 6.25rem); /* Ajusta o tamanho da fonte de acordo com o monitor: tamanho mínimo, tamanho ideal e tamanho máximo */
   line-height: 0.9;
-  margin-top: 20px;
+  margin: 20px 0 0;
   color: white;
 }
 
 /* Config do SOFTWARE ENGINEERING */
 .text-lg {
-  font-size: 70px;
-  margin-top: 20px;
-  margin-bottom: 10px;
-  line-height: 0.1;
+  font-size: clamp(2.5rem, 4.5vw, 4.375rem);
+  margin: 8px 0 10px; /* Ajusta a margem superior 8 px e a margem inferior 10 px */
+  line-height: 0.50;
   color: white;
 }
 
